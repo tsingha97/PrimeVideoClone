@@ -17,6 +17,7 @@ const MovieItem = ({ details }) => {
   return (
     <Popup
       modal
+      closeOnDocumentClick={false}
       trigger={
         // Display the movie thumbnail as a clickable image
         <img src={thumbnailUrl} alt="thumbnail" className="rounded-lg w-full" />
