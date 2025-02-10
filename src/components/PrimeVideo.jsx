@@ -46,7 +46,7 @@ const PrimeVideo = () => {
       <img
         src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"
         alt="Prime Video Banner"
-        className="w-full h-[250px] sm:h-[300px] object-cover"
+        className="w-full h-auto object-contain"
       />
       <div className="px-4 py-4">
         {/* Iterate over movie lists to render sliders for each category */}
