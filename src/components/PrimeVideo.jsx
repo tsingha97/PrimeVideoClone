@@ -41,14 +41,14 @@ const PrimeVideo = () => {
   });
 
   return (
-    <div className="m-0 p-0 bg-black text-white">
+    <div className="m-0 p-0 bg-black text-white min-h-screen">
       {/* Prime Video Banner */}
       <img
         src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"
         alt="Prime Video Banner"
         className="w-full h-[250px] sm:h-[300px] object-cover"
       />
-      <div className="px-4">
+      <div className="px-4 py-4">
         {/* Iterate over movie lists to render sliders for each category */}
         {Object.entries(movieLists).map(([category, list], index) => (
           <div key={category}>
